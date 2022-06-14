@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#situacion-chile {
+  display: none;
+}
+
+#logout {
+  display: none;
+}
+
+#myChartL {
+  display: none;
+}
+
+#cargando {
+  width: 8rem;
+  height: 8rem;
+  border: 10px solid #f3f3f3;
+  border-top: 8px solid #9c41f2;
+  border-radius: 100%;
+  margin: auto;
+  display: none;
+  animation: spin 1s infinite linear;
+}
+
+#cargando.display {
+  display: block;
+  margin-top: 12rem;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
